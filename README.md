@@ -1,4 +1,4 @@
-# 🍴 PROJECT 1
+# 🍴 CHALO KHAAV
 ### *Premium Restaurant Management & Digital Experience*
 
 ---
