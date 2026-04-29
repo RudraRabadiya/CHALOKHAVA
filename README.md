@@ -1,4 +1,4 @@
-# 🍴 CHALO KHAAV
+# 🍴 CHALO KHAVA
 ### *Premium Restaurant Management & Digital Experience*
 
 ---
