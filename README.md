@@ -100,6 +100,13 @@ start index.html
 
 ---
 
+
+
+## 📄 License
+
+This project is open source and available for personal & educational use.
+
+---
 ---
 
 ## 👨‍💻 Developer
@@ -110,10 +117,3 @@ Instagram: [@rudra.rabadiya.07](https://www.instagram.com/rudra.rabadiya.07/)
 
 ---
 
-## 📄 License
-
-This project is open source and available for personal & educational use.
-
----
-
-*With ❤️ — Visit Again!*
