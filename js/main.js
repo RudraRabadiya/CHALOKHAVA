@@ -1,6 +1,5 @@
 /* ==============================================
    CHALO KHAVA — main.js
-   Full interactivity: menu, animations, forms
    ============================================== */
 
 'use strict';
