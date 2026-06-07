@@ -1,23 +1,119 @@
-# 🍴 CHALO KHAVA
-### *Premium Restaurant Management & Digital Experience*
+# 🍴 Chalo Khava | ચાલો ખાવા
+
+> **Surat's Favourite Restaurant — A Premium Restaurant Website**  
+> *Authentic Gujarati flavours, crafted with love since 2010.*
 
 ---
 
-## 🌟 The Vision
-A sophisticated digital solution designed to bridge the gap between fine dining and technology. This project focuses on high-performance layout, seamless user experience, and modern aesthetics for the culinary industry.
+## 🌟 About the Project
 
-### **Core Features**
-* **Responsive Design**
-* **Fast Loading**
-* **Mobile First**
-* **Modern UI**
+**Chalo Khava** is a fully responsive, single-page restaurant website built for a traditional Gujarati & multi-cuisine restaurant based in Surat, Gujarat. The project showcases a modern, premium web presence for a local restaurant — combining rich Indian aesthetics with smooth, performance-first web design.
+
+The site features everything a real restaurant needs online: a dynamic menu with category filters, a table reservation form, a photo gallery, customer testimonials, live social links, and a Google Maps embed — all in one beautifully crafted page.
 
 ---
 
-## 🛠️ Technical Infrastructure
-Built with a focus on **clean code** and **version control** best practices.
+## ✨ Features
 
-**Deployment Commands:**
+- 📢 **Announcement Bar** — Scrolling daily specials and contact info
+- 🧭 **Sticky Navbar** — Smooth scroll navigation with mobile hamburger menu
+- 🎯 **Hero Section** — Full-screen landing with animated stats counter (200+ Dishes, 16+ Years, 50,000+ Guests)
+- 🏺 **Features Strip** — Highlights: 100% Vegetarian, Traditional Recipes, Freshly Made, Home Delivery
+- 📖 **About Section** — Restaurant story with image and floating award badge
+- 🖼️ **Gallery** — CSS grid photo gallery with hover overlay effects
+- 🍛 **Interactive Menu** — Dynamic JS-rendered menu cards with category filter buttons (Gujarati Specials, Starters, Mains, Breads, Desserts, Beverages)
+- 🪟 **Menu Modal** — Click any dish to see a full detail popup
+- ⭐ **Special Banner** — Highlighted Gujarati Thali deal (₹399)
+- 💬 **Testimonials Slider** — Auto-rotating guest reviews with dot navigation
+- 📋 **Reservation Form** — Table booking with name, phone, date, time, guests & special requests
+- 📍 **Contact Section** — Address, phone, email, hours, Google Maps embed
+- 📱 **Social Links** — Instagram & WhatsApp integration
+- 🔝 **Back to Top Button** + floating WhatsApp button
+- 🔔 **Toast Notifications** — Form submission feedback
+- 📱 **Fully Responsive** — Mobile-first design, works on all screen sizes
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|---|---|
+| **HTML5** | Semantic page structure |
+| **CSS3** | Custom styling, animations, grid & flexbox layouts |
+| **Vanilla JavaScript** | Menu rendering, filters, slider, form validation, scroll effects |
+| **Google Fonts** | Playfair Display · Poppins · Dancing Script |
+| **Google Maps Embed** | Restaurant location |
+
+> No frameworks. No dependencies. Pure HTML, CSS & JS — fast and lightweight.
+
+---
+
+## 📁 Project Structure
+
+```
+PROJECT1/
+├── index.html        # Main single-page website
+├── css/
+│   └── style.css     # All styles (~35KB)
+├── js/
+│   └── main.js       # All interactivity (~33KB)
+├── images/
+│   └── logo.png      # Restaurant logo
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+No build tools or installation needed. Just open it in a browser!
+
+### Option 1 — Open directly
 ```bash
-git remote add origin [https://github.com/Rudra-7127/PROJECT1.git](https://github.com/Rudra-7127/PROJECT1.git)
-git push -u origin main
+# Clone the repo
+git clone https://github.com/Rudra-7127/PROJECT1.git
+
+# Open in browser
+cd PROJECT1
+start index.html
+```
+
+### Option 2 — Live Server (VS Code)
+1. Install the **Live Server** extension in VS Code
+2. Right-click `index.html` → **Open with Live Server**
+3. Site opens at `http://127.0.0.1:5500`
+
+---
+
+## 📸 Sections Overview
+
+| Section | Description |
+|---|---|
+| Hero | Full-screen welcome with animated counters |
+| About | Our story, 3-generation recipes, values |
+| Gallery | Food & ambiance photo grid |
+| Special Banner | Chef's Special Gujarati Thali – ₹399 |
+| Menu | Filterable dish cards with modal popup |
+| Testimonials | Sliding guest reviews |
+| Contact | Info cards, map, reservation form |
+| Footer | Quick links, Instagram grid, social |
+
+---
+
+---
+
+## 👨‍💻 Developer
+
+**Rudra J Rabadiya**  
+GitHub: [Rudra-7127](https://github.com/Rudra-7127)  
+Instagram: [@rudra.rabadiya.07](https://www.instagram.com/rudra.rabadiya.07/)
+
+---
+
+## 📄 License
+
+This project is open source and available for personal & educational use.
+
+---
+
+*With ❤️ — Visit Again!*
