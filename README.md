@@ -21,13 +21,10 @@ The site features everything a real restaurant needs online: a dynamic menu with
 
 - 📢 **Announcement Bar** — Scrolling daily specials and contact info
 - 🧭 **Sticky Navbar** — Smooth scroll navigation with mobile hamburger menu
-- 🎯 **Hero Section** — Full-screen landing with animated stats counter (200+ Dishes, 16+ Years, 50,000+ Guests)
-- 🏺 **Features Strip** — Highlights: 100% Vegetarian, Traditional Recipes, Freshly Made, Home Delivery
-- 📖 **About Section** — Restaurant story with image and floating award badge
+- 🎯 **Hero Section** — Full-screen landing with animated stats counter 
 - 🖼️ **Gallery** — CSS grid photo gallery with hover overlay effects
 - 🍛 **Interactive Menu** — Dynamic JS-rendered menu cards with category filter buttons (Gujarati Specials, Starters, Mains, Breads, Desserts, Beverages)
-- 🪟 **Menu Modal** — Click any dish to see a full detail popup
-- ⭐ **Special Banner** — Highlighted Gujarati Thali deal (₹399)
+- ⭐ **Special Banner** — Highlighted Gujarati Thali deal 
 - 💬 **Testimonials Slider** — Auto-rotating guest reviews with dot navigation
 - 📋 **Reservation Form** — Table booking with name, phone, date, time, guests & special requests
 - 📍 **Contact Section** — Address, phone, email, hours, Google Maps embed
@@ -70,7 +67,8 @@ PROJECT1/
 
 ## 🚀 Getting Started
 
-No build tools or installation needed. Just open it in a browser!
+No build tools or installation needed.
+Just clone the repo and run it on the browser
 
 ### Option 1 — Open directly
 ```bash
