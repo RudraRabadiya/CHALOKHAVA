@@ -1,3 +1,7 @@
+<p >
+  <img src="images/banner.png" alt="Chalo Khava Banner" width="100%">
+</p>
+
 # 🍴 Chalo Khava | ચાલો ખાવા
 
 > **Surat's Favourite Restaurant — A Premium Restaurant Website**  
