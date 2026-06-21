@@ -1,5 +1,5 @@
 <p >
-  <img src="images/banner.png" alt="Chalo Khava Banner" width="100%">
+  <img src="images/banner.png" alt="Chalo Khava Banner" width="100%" height="1024px"  >
 </p>
 
 # 🍴 Chalo Khava | ચાલો ખાવા
@@ -11,7 +11,7 @@
 
 ## 🌟 About the Project
 
-**Chalo Khava** is a fully responsive, single-page restaurant website built for a traditional Gujarati & multi-cuisine restaurant based in Surat, Gujarat. The project showcases a modern, premium web presence for a local restaurant — combining rich Indian aesthetics with smooth, performance-first web design.
+**Chalo Khava** is a fully responsive, single-page restaurant website built for a traditional Gujarati & multi-cuisine restaurant based in Surat, Gujarat. The project showcases a modern, premium web presence for a local restaurant,combining rich Indian aesthetics with smooth, performance-first web design.
 
 The site features everything a real restaurant needs online: a dynamic menu with category filters, a table reservation form, a photo gallery, customer testimonials, live social links, and a Google Maps embed — all in one beautifully crafted page.
 
@@ -55,9 +55,9 @@ The site features everything a real restaurant needs online: a dynamic menu with
 PROJECT1/
 ├── index.html        # Main single-page website
 ├── css/
-│   └── style.css     # All styles (~35KB)
+│   └── style.css     # All styles 
 ├── js/
-│   └── main.js       # All interactivity (~33KB)
+│   └── main.js       # All interactivity 
 ├── images/
 │   └── logo.png      # Restaurant logo
 └── README.md
@@ -108,14 +108,16 @@ start index.html
 
 This project is open-source and available under the [MIT License](LICENSE).
 
----
-
-
-## 👨‍💻 Developer
-
-**Rudra J Rabadiya**  
-GitHub: [Rudra-7127](https://github.com/Rudra-7127)  
-Instagram: [@rudra.rabadiya.07](https://www.instagram.com/rudra.rabadiya.07/)
 
 ---
 
+
+<div align="center">
+
+Made by **[Rudra J Rabadiya](https://github.com/Rudra-7127)**
+
+[![Instagram](https://img.shields.io/badge/%40rudra.rabadiya.07-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/rudra.rabadiya.07/)
+
+© 2026 · All Rights Reserved
+
+</div>

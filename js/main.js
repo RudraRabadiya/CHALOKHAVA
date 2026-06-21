@@ -329,6 +329,49 @@ function showToast(msg, duration = 3000) {
 })();
 
 /* ──────────────────────────────────────────────
+   DARK MODE TOGGLE
+   ────────────────────────────────────────────── */
+(function initDarkMode() {
+  const root = document.documentElement;
+  const toggle = document.getElementById('themeToggle');
+  const STORAGE_KEY = 'chalokhava-theme';
+
+  // Determine initial theme
+  function getPreferred() {
+    const stored = localStorage.getItem(STORAGE_KEY);
+    if (stored) return stored;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+
+  function applyTheme(theme) {
+    if (theme === 'dark') {
+      root.classList.add('dark');
+    } else {
+      root.classList.remove('dark');
+    }
+  }
+
+  // Apply on load
+  applyTheme(getPreferred());
+
+  // Toggle on click
+  if (toggle) {
+    toggle.addEventListener('click', () => {
+      const isDark = root.classList.toggle('dark');
+      localStorage.setItem(STORAGE_KEY, isDark ? 'dark' : 'light');
+      showToast(isDark ? '🌙 Dark mode enabled' : '☀️ Light mode enabled', 2000);
+    });
+  }
+
+  // Listen for system theme changes (if no manual override)
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+    if (!localStorage.getItem(STORAGE_KEY)) {
+      applyTheme(e.matches ? 'dark' : 'light');
+    }
+  });
+})();
+
+/* ──────────────────────────────────────────────
    NAVBAR — scroll effect + hamburger
    ────────────────────────────────────────────── */
 (function initNavbar() {
@@ -710,7 +753,7 @@ function openModal(item) {
 
     setTimeout(() => {
       btn.textContent = '✅ Reservation Confirmed!';
-      btn.style.background = '#527A3E';
+      btn.style.background = '#4CAF50';
       btn.style.opacity = '1';
       showToast(`🎉 Table booked for ${name} on ${formatDate(date)} at ${time}!`, 5000);
       form.reset();
